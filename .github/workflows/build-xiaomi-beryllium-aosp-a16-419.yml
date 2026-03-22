@@ -1,4 +1,4 @@
-name: Build Xiaomi Mix2s (Based AOSP A16) (Kernel 4.19)
+name: Build Xiaomi POCO F1 (Based AOSP A16) (Kernel 4.19)
 
 on:
   workflow_call:
