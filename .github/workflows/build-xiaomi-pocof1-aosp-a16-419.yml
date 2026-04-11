@@ -29,8 +29,8 @@ env:
   DEFCONFIG_ORIGIN_IMAGE: ""
   DEFCONFIG_FROM_BOOT: false
 
-  KERNELSU_SOURCE : "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/bab4d90a65e8074233f5e394a69b864df10f91d4/kernel/setup.sh"
-  KERNELSU_BRANCH : "bab4d90a65e8074233f5e394a69b864df10f91d4"
+  KERNELSU_SOURCE : "https://raw.githubusercontent.com/cyberc3dr/KernelSU/refs/heads/susfs-rksu-master/kernel/setup.sh"
+  KERNELSU_BRANCH : "susfs-rksu-master"
 
   KERNELSU_AUTO_GET : "false"
   KERNELSU_AUTO_FORK : "rsuntk" # xxksu, rsuntk , next, resukisu and sukisu
