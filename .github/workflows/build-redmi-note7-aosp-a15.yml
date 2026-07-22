@@ -12,12 +12,12 @@ env:
   CUSTOM_CMDS : "CLANG_TRIPLE=aarch64-linux-gnu-"
   EXTRA_CMDS : "LD=ld.lld LLVM=1 LLVM_IAS=1"
 
-  KERNEL_SOURCE : "https://github.com/pix106/android_kernel_xiaomi_southwest-4.19.git"
-  KERNEL_BRANCH : "main-dynamic-3.18.0"
+  KERNEL_SOURCE : "https://github.com/LXJ200625/kernel_xiaomi_dipper_bpf5.4.git"
+  KERNEL_BRANCH : "bpf-5.4"
 
   CLANG_SOURCE : "https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/LLVM-19.1.7-Linux-X64.tar.xz"
   CLANG_BRANCH : ""
-
+o
   GCC_GNU : false
   GCC_64_SOURCE : "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9.git"
   GCC_64_BRANCH : "android12L-release"
@@ -25,7 +25,7 @@ env:
   GCC_32_BRANCH : "android12L-release"
 
   DEFCONFIG_SOURCE: ""
-  DEFCONFIG_NAME : "lavender_defconfig"
+  DEFCONFIG_NAME : "nogravity_defconfig"
   DEFCONFIG_ORIGIN_IMAGE: ""
   DEFCONFIG_FROM_BOOT: false
 
